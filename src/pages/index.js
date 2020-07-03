@@ -13,12 +13,13 @@ const IndexPage = () => (
       maxWidth: `1300px`,
       fontSize: `calc(32px + (64 - 32) * ((100vw - 300px) / (1600 - 300)))`
       }}>
-        Professional software development and delivery. We build amazing digital products.
+        Professional software development. We build amazing digital products.
       </h2>
       <div style={{
         margin: `0 auto`,
         marginTop: ``,
-        padding: `10% 5%`,
+        padding: `10% 0`,
+        maxWidth: `1300px`,
       }}>
         <hr style={{
           color: `white`,
@@ -33,15 +34,16 @@ const IndexPage = () => (
         }}>
           <h3 >About Us.</h3>
           <div>
-            <p>We are a software development company based in Yorkshire UK. Founded in 2020 we offer decades worth of experience in modern web development to create amazing digital products.</p>
+            <p>We are a software development company based in Yorkshire UK. We offer decades worth of experience in modern web development to create amazing digital products.</p>
             <p>We love working with clients big and small to help them to visualise their goals and create beautiful digital products.</p>
-            <a href="mailto:hello@canisworks.com?subject=Website Message" target="blank">Get in touch: <b>hello@canisworks.com</b></a>
+            <a href="mailto:hello@canisworks.com?subject=Website Message" target="blank">Get in touch. <b>hello@canisworks.com</b></a>
           </div>
         </div>        
       </div>
       <div style={{
         margin: `0 auto`,
-        padding: `0 5%`,
+        padding: `0`,
+        maxWidth: `1300px`,
       }}>
         <hr style={{
           color: `white`,

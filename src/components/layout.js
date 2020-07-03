@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
           width: `100%`,
           height: `100%`,
           padding: `0 1.0875rem 1.45rem`,
-          background: `#253551`,
           color: `#fff`,
         }}
       >
@@ -43,7 +42,7 @@ const Layout = ({ children }) => {
           right: `0`,
           padding: `10px`,
         }}>
-          <p style={{ margin: `0`}}>© {new Date().getFullYear()}</p>
+          
         </footer>
       </div>
     </>
